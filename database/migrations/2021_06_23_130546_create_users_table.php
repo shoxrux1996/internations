@@ -16,6 +16,7 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->foreignId('group_id')->nullable()->constrained()->nullOnDelete();
             $table->timestamps();
         });
     }
