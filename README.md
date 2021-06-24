@@ -15,3 +15,9 @@
 ## Documentation
 
 This project Documentation using POSTMAN [link](https://documenter.getpostman.com/view/2412730/TzecDRLS).
+
+## Useful commands
+
+-   php artisan migrate (Migration of all tables to DB)
+-   php artisan db:seed (Seeding your database with test data)
+-   ./vendor/bin/phpunit (Testing all api)
